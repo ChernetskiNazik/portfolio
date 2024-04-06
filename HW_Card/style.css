@@ -1,0 +1,38 @@
+body{
+    color:#fff;
+    background: #ffe600;
+}
+
+.card{
+    background:#000; /*колір фону*/
+    width: 400px; /*ширина елементу*/
+    margin:190px auto; /*центрування елементу, зовнішній відступ */
+    padding: 15px; /*внутрішній відступ*/
+    text-align: center;/*центрування тексту*/
+}
+
+.img{
+    width: 100%; /*ширина елементу, підстроюється під розмір батьківського елементу*/
+}
+
+.card,
+.img{
+    border-radius: 30px; /*скруглення елементу для 2 елемента*/
+}
+
+.header{
+    font-size: 37px; /*розмір тксту*/
+    text-transform: uppercase; /*робить увесь текст з великої літери */
+}
+
+.paragraph{
+    font-size: 32px;
+}
+
+span{
+    color: red;
+}
+
+.paragraph.u{
+    text-decoration: underline; /*декорування тексту-підкреслення*/
+}

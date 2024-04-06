@@ -1,0 +1,22 @@
+body{
+    color: #fff;
+    background: #000;
+}
+
+a{
+    color: inherit; /*наслідування батьківського кольору*/
+}
+
+.menu-item{
+    list-style-type: none; /*Прибираємо пунктуацію списків*/
+}
+
+img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}

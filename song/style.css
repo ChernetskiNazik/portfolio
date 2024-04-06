@@ -1,0 +1,19 @@
+body{
+    text-align: center;  /*центрування тексту  */
+    background:#000000; /*кольор фону  */
+    color: #ffd900; /*колір тексту*/
+}
+
+h1{
+    font-size: 40px; /*розмір тексту*/
+    text-decoration: underline; /*декорування тексту*/
+}
+
+p{
+    font-size: 18px;
+    color: #ffe600;
+}
+
+img{
+    border-radius: 29%; /* скруглення елементу*/
+}
