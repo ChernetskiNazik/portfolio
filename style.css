@@ -1,0 +1,23 @@
+body{
+    background: #00e5ff;
+}
+
+.menu{
+    padding: 20px;
+    border: 1.7px solid #001568;
+    border-radius: 49px;
+    max-width: 300px;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.menu-item{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.link{
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+}
