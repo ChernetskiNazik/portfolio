@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card{
+    font-family: "Roboto Mono", monospace;
+    width: 300px;
+    color: #ffffff;
+    background: radial-gradient(124.81% 124.81% at 50% -.29%, #242a42 43.75%, #121524 100%);
+    padding: 17px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+.wraper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+}
