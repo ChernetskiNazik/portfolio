@@ -1,0 +1,61 @@
+body{
+    height: 600px;
+}
+
+.wrap{
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    height: 500px;
+    position: absolute;
+    transition: .3s;
+}
+
+.card-1{
+    top: 60px;
+    left: 240px;
+    transition-delay: .9s;   
+}
+
+.card-2{
+    top: 80px;
+    left: 260px;
+    transition-delay: .6s;   
+}
+
+.card-3{
+    top: 100px;
+    left: 280px;
+    transition-delay: .3s;   
+}
+
+.card-4{
+    top: 120px;
+    left: 300px; 
+}
+
+.wrap:hover .card-1{
+    z-index: 4;
+    top: 60px;
+    left: 780px;
+}
+
+.wrap:hover .card-2{
+    z-index: 3;
+    top: 80px;
+    left: 760px;
+}
+
+.wrap:hover .card-3{
+    z-index: 2;
+    top: 100px;
+    left: 740px;
+}
+
+.wrap:hover .card-4{
+    z-index: 1;
+    top: 120px;
+    left: 720px;
+}

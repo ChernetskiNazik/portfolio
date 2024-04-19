@@ -44,3 +44,14 @@ img{
 .first{
     margin-top: 46px; /*зовнішній відступ зверху*/
 }
+
+.logo-link{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.logo{
+    width: 74px;
+    border-radius: 30px;
+}
