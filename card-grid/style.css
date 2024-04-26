@@ -29,3 +29,19 @@ h2{
     grid-template-rows: repeat(4, 1fr);
     gap: 20px;
 }
+
+.card.rotate{
+    transform: rotate(180deg);
+}
+
+.card.scale{
+    transform: scale(.8);
+}
+
+.card.translate{
+    transform: translate(10px, 0);
+}
+
+.card.skew{
+    transform: skewX(20deg);
+}
