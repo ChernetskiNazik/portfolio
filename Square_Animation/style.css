@@ -1,0 +1,29 @@
+html, body{
+    height: 100%;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background: rgb(2, 0, 90);
+    margin: 0 auto;
+    animation: action 4s infinite alternate;
+}
+
+@keyframes action{ /*задання кадрів анімації*/
+    0%{
+        
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: scale(.14) rotate(180deg);
+    }    
+}

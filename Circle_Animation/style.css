@@ -1,0 +1,32 @@
+html, body{
+    height: 100%;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    margin: 0 auto;
+    border-radius: 100%;
+    animation: blink 1.7s infinite alternate;
+}
+
+@keyframes blink{ /*задання кадрів анімації*/
+    0%{
+        opacity: .1;
+        transform: scale(.2);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }    
+}
+
